@@ -1,0 +1,9 @@
+zone "dani.com" {
+    type master;
+    file "/var/lib/bind/db.dani.com";
+};
+
+zone "57.168.192.in-addr.arpa" {
+    type master;
+    file "/var/lib/bind/57.168.192.db";
+};
